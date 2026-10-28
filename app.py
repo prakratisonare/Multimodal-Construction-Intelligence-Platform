@@ -1,9 +1,9 @@
 import json
 import streamlit as st
 from PIL import Image
-from modules.ai_engine import analyze_image, chat_response
-from modules.calculations import estimate_project
-from modules.ui import inject_css, status_badge, metric_card
+from module.ai_engine import analyze_image, chat_response
+from module.calculations import estimate_project
+from module.ui import inject_css, status_badge, metric_card
 
 st.set_page_config(page_title="Multimodal Construction Intelligence", page_icon="🏗️", layout="wide")
 inject_css()
