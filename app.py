@@ -1,7 +1,7 @@
 import json
 import streamlit as st
 from PIL import Image
-from module.ai_engine import analyze_image, chat_response
+from modules.ai_engine import analyze_image, chat_response
 from modules.calculations import estimate_project
 from modules.ui import inject_css, status_badge, metric_card
 
